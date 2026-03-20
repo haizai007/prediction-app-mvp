@@ -2,3 +2,7 @@ name = "prediction-app-mvp"
 pages_build_output_dir = ".open-next/assets"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
+
+[vars]
+NEXT_PUBLIC_SUPABASE_URL = "https://zxkpiqpdxaynrkwklbxc.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "sb_publishable_i3HMsh4GxxoM6vkGQyL5nQ_HjccHi4w"
