@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:cf": "NEXT_PRIVATE_WORKER_THREADS=false npx @opennextjs/cloudflare build && echo 'import worker from \"../worker.js\";\\nexport default worker;' > .open-next/assets/_worker.js",
+    "build:cf": "node -e \"let fs=require('fs'); let f='node_modules/@opennextjs/cloudflare/dist/cli/build/patches/plugins/load-manifest.js'; fs.writeFileSync(f, fs.readFileSync(f,'utf8').replace('*-manifest,required-server-files', '*-manifest,required-server-files,prefetch-hints'));\" && NEXT_PRIVATE_WORKER_THREADS=false npx @opennextjs/cloudflare build && echo 'import worker from \"../worker.js\";\\nexport default worker;' > .open-next/assets/_worker.js",
     "start": "next start",
     "lint": "eslint"
   },

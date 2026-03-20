@@ -3643,13 +3643,13 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/explore/page_client-reference-manifest.js": {
-      "bytes": 8388,
+    ".open-next/server-functions/default/.next/server/app/create/page_client-reference-manifest.js": {
+      "bytes": 8650,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/create/page_client-reference-manifest.js": {
-      "bytes": 8650,
+    ".open-next/server-functions/default/.next/server/app/explore/page_client-reference-manifest.js": {
+      "bytes": 8388,
       "imports": [],
       "format": "cjs"
     },
@@ -3669,7 +3669,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.external.js": {
-      "bytes": 28095,
+      "bytes": 28153,
       "imports": [
         {
           "path": "path",
@@ -3707,14 +3707,14 @@
           "original": "/Users/haizai/Documents/hiyamcp/prediction-app/web/.open-next/server-functions/default/.next/server/app/login/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/explore/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/haizai/Documents/hiyamcp/prediction-app/web/.open-next/server-functions/default/.next/server/app/explore/page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/create/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/haizai/Documents/hiyamcp/prediction-app/web/.open-next/server-functions/default/.next/server/app/create/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/explore/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/haizai/Documents/hiyamcp/prediction-app/web/.open-next/server-functions/default/.next/server/app/explore/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js",
@@ -6734,12 +6734,12 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/open-next.config.mjs": {
-      "bytes": 6995,
+      "bytes": 6832,
       "imports": [],
       "format": "esm"
     },
     ".open-next/server-functions/default/index.mjs": {
-      "bytes": 83826,
+      "bytes": 83868,
       "imports": [
         {
           "path": "node:module",
@@ -8032,11 +8032,11 @@
         ".open-next/server-functions/default/.next/server/app/login/page_client-reference-manifest.js": {
           "bytesInOutput": 6943
         },
-        ".open-next/server-functions/default/.next/server/app/explore/page_client-reference-manifest.js": {
-          "bytesInOutput": 8029
-        },
         ".open-next/server-functions/default/.next/server/app/create/page_client-reference-manifest.js": {
           "bytesInOutput": 8290
+        },
+        ".open-next/server-functions/default/.next/server/app/explore/page_client-reference-manifest.js": {
+          "bytesInOutput": 8029
         },
         ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
           "bytesInOutput": 6953
@@ -8048,7 +8048,7 @@
           "bytesInOutput": 8289
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.external.js": {
-          "bytesInOutput": 19290
+          "bytesInOutput": 19330
         },
         ".open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__0-.lnv4._.js": {
           "bytesInOutput": 4163
@@ -8456,10 +8456,10 @@
           "bytesInOutput": 5074
         },
         ".open-next/server-functions/default/index.mjs": {
-          "bytesInOutput": 58200
+          "bytesInOutput": 58240
         }
       },
-      "bytes": 3878829
+      "bytes": 3878909
     }
   }
 }

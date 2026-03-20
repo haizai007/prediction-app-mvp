@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "prediction-app-mvp" generated at 2026-03-20T07:15:12.073Z.
